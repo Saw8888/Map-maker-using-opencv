@@ -11,7 +11,7 @@ lib = ['Map1.png']
 Read = list(cv2.imread(lib[0]))
 
 clock = pygame.time.Clock()
-while True:
+while 1:
     screen.fill((0))
 
     for event in pygame.event.get():
